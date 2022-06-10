@@ -4,6 +4,7 @@
 #include "lib/ultrasoon.h"
 #include <avr/interrupt.h>
 #include <avr/io.h>
+#include <util/delay.h>
 
 extern dc_motor_t rightMotor;
 extern dc_motor_t leftMotor;
